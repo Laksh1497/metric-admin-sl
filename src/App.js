@@ -5,30 +5,15 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button,Alert,Container, Row, Col,Image } from "react-bootstrap";
 
-import Header from './header/header';
-import DDetails from "./descriptionDetails/descriptionDetails";
+
+import MetricDetails from "./metricDetails/metricDetails";
 
 
 const App = (props) => {
   return (
   
-  // <section>{props.name} is here!</section>
-//   <Alert variant="success">
-//   <Alert.Heading>Hey, nice to see you</Alert.Heading>
-//   <p>
-//     Aww yeah, you successfully read this important alert message. This example
-//     text is going to run a bit longer so that you can see how spacing within an
-//     alert works with this kind of content.
-//   </p>
-//   <hr />
-//   <p className="mb-0">
-//     Whenever you need to, be sure to use margin utilities to keep things nice
-//     and tidy.
-//   </p>
-// </Alert>
     <Container>
-      <Header/>
-      <DDetails />
+      <MetricDetails />
     </Container>
 
 
